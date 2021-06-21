@@ -43,6 +43,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'api.apps.ApiConfig',
+    'utils.apps.UtilsConfig',
+    'certificates.apps.CertificatesConfig',
 ]
 
 MIDDLEWARE = [
